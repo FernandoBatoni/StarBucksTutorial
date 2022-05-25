@@ -109,7 +109,7 @@ section.about{
     display: block;
     margin: 40px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 1.5s;
 }
 
 .bottom img:hover{
