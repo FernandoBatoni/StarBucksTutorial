@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,200;1,300;1,400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+html, body{
+    height: 100%;
+    overflow-y:hidden;
+    overflow-x: hidden;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    /* padding-top: -50px; */
+    width:1000px;
+    text-align: right;
+    position: relative;
+    bottom: 75px; 
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.about{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -500px;
+    right: -500px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #017143;
+    z-index: -1;
+}
+
+.socialmedia{
+    position: absolute;
+    right: 520px;
+    bottom: 620px;
+}
+
+.socialmedia img{
+    display: block;
+    width: 20px;
+    margin: 40px 0;
+}
+
+.texto-sobre{
+    margin-left: 50px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+.texto-sobre button{
+    border: 0;
+    color: white;
+    background-color: #017143;
+    border-radius: 10px;
+    width: 90px;
+    height: 50px;
+}
+.row{
+    position: absolute;
+    display: flex;
+    top: 400px;
+    left: 300px;
+}
+
+.bottom img{
+    width: 75px;
+    display: block;
+    margin: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bottom img:hover{
+    transform: translateY(-15px);
+}
