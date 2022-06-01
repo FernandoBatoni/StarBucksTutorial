@@ -9,7 +9,7 @@
 
 html, body{
     height: 100%;
-    overflow-y:hidden;
+/*     overflow-y:hidden; */
     overflow-x: hidden;
 }
 
@@ -114,4 +114,17 @@ section.about{
 
 .bottom img:hover{
     transform: translateY(-15px);
+}
+
+@media  (max-width: 991px) {
+    .extras {
+        position: absolute;
+        bottom: -446px;
+        right: -77px;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background-color: #017143;
+        /* z-index: -1; */
+    }
 }
